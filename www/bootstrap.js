@@ -1,3 +1,1 @@
-document.addEventListener("deviceready", function() {
-    window.FastClick.attach(document.body);
-}, false);
+cordova.require("cordova-plugin-fastclick.FastClick").FastClick.attach(document.body);
