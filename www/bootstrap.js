@@ -1,1 +1,3 @@
-FastClick.attach(document.body);
+document.addEventListener("deviceready", function() {
+    window.FastClick.attach(document.body);
+}, false);
