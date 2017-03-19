@@ -16,7 +16,7 @@
 
     <platform name="ios">
         <js-module src="www/fastclick.js" name="FastClick">
-            <clobbers target="FastClick" />
+            <clobbers target="window" />
         </js-module>
 
         <js-module src="www/bootstrap.js" name="FastClickBootstrap">
