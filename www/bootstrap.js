@@ -1,1 +1,1 @@
-cordova.require("cordova-plugin-fastclick.FastClick").FastClick.attach(document.body);
+cordova.require("cordova-plugin-fastclick.FastClick").attach(document.body);
